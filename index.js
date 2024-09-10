@@ -26,8 +26,8 @@ function convertToCelsius(f) {
 function describeTemperature(f) {
   let message = '';
   const numf = f * 1;
-
-  if(numf === 32) {
+{}
+  if(numf < 32) {
     message = 'very cold' }
     else if(numf < 64) {message = 'cold'; }
     else if(numf < 86) {message = 'warm';}
